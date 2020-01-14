@@ -26,7 +26,7 @@ def play(songs)
     #binding.pry
   if songs.include?(input)
     selection = songs.detect {|music| music == input}
-     "#{selection}"
+     selection
   elsif input.to_i >= 1 && input.to_i <= songs.length+1
     puts "#{songs[input.to_i-1]}"
   else
