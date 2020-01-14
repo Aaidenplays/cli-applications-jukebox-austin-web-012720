@@ -50,7 +50,7 @@ def run(songs)
   input = ''
 
   while input != "exit"
-      puts "Please enter a command:"
+    puts "Please enter a command:"
     input = gets.chomp
   
     case input
