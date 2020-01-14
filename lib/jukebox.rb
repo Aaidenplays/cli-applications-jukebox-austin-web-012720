@@ -51,17 +51,16 @@ def run(songs)
 
     puts "Please enter a command:"
     input = gets.chomp
-  result = nil
+  
     case input
     when "play" 
-     result = play(songs)
+     play(songs)
     when "help"
-      result = help
+      help
     when "list"
-      result = list(songs)
+      list(songs)
     when "exit"
-      result = exit_jukebox
+      exit_jukebox
     end
-    result
 end
 
