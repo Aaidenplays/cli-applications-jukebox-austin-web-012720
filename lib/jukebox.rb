@@ -48,10 +48,10 @@ end
 
 def run(songs)
   input = ''
+
+  while input != "exit"
       puts "Please enter a command:"
     input = gets.chomp
-  while input != "exit"
-
   
     case input
     when "play" 
