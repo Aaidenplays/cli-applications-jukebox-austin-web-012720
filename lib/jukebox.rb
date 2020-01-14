@@ -48,7 +48,8 @@ end
 
 def run(songs)
   input = ''
-
+  index = 0
+  while index < songs.length
     puts "Please enter a command:"
     input = gets.chomp
   
@@ -62,5 +63,6 @@ def run(songs)
     when "exit"
       exit_jukebox
     end
+    index += 1
 end
 
