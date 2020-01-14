@@ -55,8 +55,8 @@ def run(songs)
 
     case input
     when "play" 
-      playing = play(songs)
-      puts "Playing #{playing}"
+      #playing = play(songs)
+      puts "Playing #{play(songs)}"
     when "help"
       help
     when "list"
