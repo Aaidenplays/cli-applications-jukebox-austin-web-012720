@@ -28,7 +28,7 @@ def play(songs)
     selection = songs.detect {|music| music == input}
     puts "Playing #{selection}"
   elsif input.to_i >= 1 && input.to_i <= songs.length+1
-    puts "#{songs[input.to_i-1]}"
+    puts "Playing #{songs[input.to_i-1]}"
   else
     puts "Invalid input, please try again"
   end
