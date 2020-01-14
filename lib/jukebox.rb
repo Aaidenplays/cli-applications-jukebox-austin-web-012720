@@ -56,11 +56,11 @@ def run(songs)
     when "play" 
      result = play(songs)
     when "help"
-      help
+      result = help
     when "list"
-      list(songs)
+      result = list(songs)
     when "exit"
-      exit_jukebox
+      result =exit_jukebox
     end
     result
 end
