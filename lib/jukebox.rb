@@ -49,7 +49,7 @@ end
 def run(songs)
   input = ''
 
-    #puts "Please enter a command:"
+    puts "Please enter a command:"
     input = gets.chomp
   
     case input
