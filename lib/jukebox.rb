@@ -60,7 +60,7 @@ def run(songs)
     when "list"
       result = list(songs)
     when "exit"
-      result =exit_jukebox
+      result = exit_jukebox
     end
     result
 end
