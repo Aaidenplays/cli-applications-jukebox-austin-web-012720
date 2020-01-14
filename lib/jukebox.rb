@@ -63,7 +63,7 @@ def run(songs)
     when "exit"
       exit_jukebox
     end
-  end
     index += 1
+  end
 end
 
